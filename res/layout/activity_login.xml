@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity" >
+
+  <ImageView
+        android:id="@+id/imgPioneerLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/pioneerLogo"
+        android:src="@drawable/psmlogo150px" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPioneerLogo"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/usernameLabel"
+        android:text="PA00086826"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtUsername"
+        android:ems="10"
+        android:hint="@string/passwordLabel"
+        android:inputType="textPassword"
+        android:text="TestingQA10"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnGetQuote"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:minWidth="40dp"
+        android:text="@string/getAutoInsuranceQuoteLabel"
+        android:textSize="12sp" 
+        android:onClick="GetAutoQuote_Click"
+        />
+
+    <Button
+        android:id="@+id/btnForgotPassword"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnGetQuote"
+        android:text="@string/forgotPasswordLabel"
+        android:textSize="12sp" 
+        android:onClick="ForgotPassword_Click"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/loginButtonLabel"
+        android:onClick="Login_Click"
+        android:text="@string/loginButtonLabel" />
+    
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/DEV/PortalDirect/PortalDirect/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="races_array">
+        <item>race_goblin</item>
+        <item>race_orc</item>
+        <item>race_elf</item>
+        <item>race_human</item>
+        <item>race_troll</item>
+        <item>race_halfling</item>
+    </string-array>
+    <!-- From: file:/C:/DEV/PortalDirect/PortalDirect/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/DEV/PortalDirect/PortalDirect/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">PortalDirect</string>
+    <string name="button_quoteSaveGotoNext">Save and Go to Next Step</string>
+    <string name="forgotPasswordLabel">Forgot Password</string>
+    <string name="getAutoInsuranceQuoteLabel">Get Auto Insurance Quote</string>
+    <string name="header_quoteApplicant">Auto Quote - Applicant Information</string>
+    <string name="header_quoteList">Auto Quote List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_address">Address</string>
+    <string name="label_city">City</string>
+    <string name="label_dateBirth">Date of Birth</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_firstName">First Name</string>
+    <string name="label_lastName">Last Name</string>
+    <string name="label_middleInitial">Middle Initial</string>
+    <string name="label_residency">Residency</string>
+    <string name="label_ssn">SSN#</string>
+    <string name="label_state">State</string>
+    <string name="label_zip">Zip</string>
+    <string name="loginButtonLabel">Login</string>
+    <string name="passwordLabel">Password</string>
+    <string name="pioneerLogo">Pioneer PortalDirect</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_quote_applicant">QuoteApplicantActivity</string>
+    <string name="title_activity_quote_coverage">QuoteCoverageActivity</string>
+    <string name="title_activity_quote_driver">QuoteDriverActivity</string>
+    <string name="title_activity_quote_list">QuoteListActivity</string>
+    <string name="title_activity_quote_review">QuoteReviewActivity</string>
+    <string name="title_activity_quote_tab">PortalDirect - Auto Quote</string>
+    <string name="title_activity_quote_vehicle">QuoteVehicleActivity</string>
+    <string name="usernameLabel">Username</string>
+    <!-- From: file:/C:/DEV/PortalDirect/PortalDirect/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- From: file:/C:/DEV/PortalDirect/PortalDirect/res/values/EditTextStyle.xml -->
+    <eat-comment />
+
+    <style name="PDActivityHeader" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="PDEditText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

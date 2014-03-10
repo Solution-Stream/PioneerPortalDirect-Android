@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\DEV\PortalDirect\PortalDirect\res" >
+            <file
+                name="ic_launcher"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="question"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\question.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="question_white"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\question_white.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tab1"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\tab1.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tick"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\tick.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tick_white"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-hdpi\tick_white.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="psmlogo150px"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-ldpi\psmlogo150px.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\DEV\PortalDirect\PortalDirect\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_home"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_home.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_login"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_login.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_applicant"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_applicant.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_coverage"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_coverage.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_driver"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_driver.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_list"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_review"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_review.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_tab"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_tab.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_quote_vehicle"
+                path="C:\DEV\PortalDirect\PortalDirect\res\layout\activity_quote_vehicle.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="home"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\home.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="login"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\login.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_applicant"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_applicant.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_coverage"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_coverage.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_driver"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_driver.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_list"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_review"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_review.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_tab"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_tab.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="quote_vehicle"
+                path="C:\DEV\PortalDirect\PortalDirect\res\menu\quote_vehicle.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values\arrays.xml"
+                qualifiers="" >
+                <string-array name="races_array" >
+                    <item>
+race_goblin
+                    </item>
+                    <item>
+race_orc
+                    </item>
+                    <item>
+race_elf
+                    </item>
+                    <item>
+race_human
+                    </item>
+                    <item>
+race_troll
+                    </item>
+                    <item>
+race_halfling
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values\EditTextStyle.xml"
+                qualifiers="" >
+
+                <style
+                    name="PDActivityHeader"
+                    parent="@android:style/TextAppearance.Large" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+#000000
+                    </item>
+                </style>
+
+                <style
+                    name="PDEditText"
+                    parent="@android:style/TextAppearance.Small" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+#000000
+                    </item>
+                </style>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values\strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="label_ssn" >SSN#
+                </string>
+                <string name="label_firstName" >First Name
+                </string>
+                <string name="label_lastName" >Last Name
+                </string>
+                <string name="button_quoteSaveGotoNext" >Save and Go to Next Step
+                </string>
+                <string name="usernameLabel" >Username
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="label_residency" >Residency
+                </string>
+                <string name="label_dateBirth" >Date of Birth
+                </string>
+                <string name="label_middleInitial" >Middle Initial
+                </string>
+                <string name="label_zip" >Zip
+                </string>
+                <string name="label_email" >Email Address
+                </string>
+                <string name="header_quoteApplicant" >Auto Quote - Applicant Information
+                </string>
+                <string name="passwordLabel" >Password
+                </string>
+                <string name="title_activity_quote_tab" >PortalDirect - Auto Quote
+                </string>
+                <string name="loginButtonLabel" >Login
+                </string>
+                <string name="title_activity_quote_applicant" >QuoteApplicantActivity
+                </string>
+                <string name="title_activity_quote_vehicle" >QuoteVehicleActivity
+                </string>
+                <string name="label_city" >City
+                </string>
+                <string name="title_activity_quote_list" >QuoteListActivity
+                </string>
+                <string name="title_activity_home" >HomeActivity
+                </string>
+                <string name="forgotPasswordLabel" >Forgot Password
+                </string>
+                <string name="label_address" >Address
+                </string>
+                <string name="label_state" >State
+                </string>
+                <string name="pioneerLogo" >Pioneer PortalDirect
+                </string>
+                <string name="header_quoteList" >Auto Quote List
+                </string>
+                <string name="title_activity_quote_review" >QuoteReviewActivity
+                </string>
+                <string name="getAutoInsuranceQuoteLabel" >Get Auto Insurance Quote
+                </string>
+                <string name="app_name" >PortalDirect
+                </string>
+                <string name="title_activity_quote_coverage" >QuoteCoverageActivity
+                </string>
+                <string name="title_activity_quote_driver" >QuoteDriverActivity
+                </string>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\DEV\PortalDirect\PortalDirect\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="C:\DEV\PortalDirect\PortalDirect\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\DEV\PortalDirect\PortalDirect\build-types\debug\res" />
+    </dataSet>
+
+</merger>
