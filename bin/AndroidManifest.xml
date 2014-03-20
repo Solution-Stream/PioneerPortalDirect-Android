@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -59,6 +59,14 @@
         </activity>
         <activity
             android:name="com.pioneer.portaldirect.QuoteAssignDriver"
+            android:label="@string/title_activity_quote_assign_driver" >
+        </activity>
+        <activity
+            android:name="com.pioneer.portaldirect.Quote_assign_driver"
+            android:label="@string/title_activity_quote_assign_driver" >
+        </activity>
+        <activity
+            android:name="com.pioneer.portaldirect.QuoteAssignDriverActivity"
             android:label="@string/title_activity_quote_assign_driver" >
         </activity>
     </application>

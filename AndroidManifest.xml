@@ -65,6 +65,10 @@
             android:name="com.pioneer.portaldirect.Quote_assign_driver"
             android:label="@string/title_activity_quote_assign_driver" >
         </activity>
+        <activity
+            android:name="com.pioneer.portaldirect.QuoteAssignDriverActivity"
+            android:label="@string/title_activity_quote_assign_driver" >
+        </activity>
     </application>
 
 </manifest>
