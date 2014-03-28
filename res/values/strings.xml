@@ -6,8 +6,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="usernameLabel">Username</string>
     <string name="passwordLabel">Password</string>
-    <string name="getAutoInsuranceQuoteLabel">Get Auto Insurance Quote</string>
-    <string name="forgotPasswordLabel">Forgot Password</string>
+    <string name="getAutoInsuranceQuoteLabel">Get Auto Quote</string>
+    <string name="forgotPasswordLabel">Forgot Password?</string>
     <string name="loginButtonLabel">Login</string>
     <string name="pioneerLogo">Pioneer PortalDirect</string>
     <string name="title_activity_home">HomeActivity</string>

@@ -2,17 +2,26 @@ package com.pioneer.portaldirect;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.TextView;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
@@ -23,6 +32,7 @@ import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 import com.pioneer.portaldirect.GlobalVariables;
 import com.pioneer.sqlite.helper.DatabaseHelper;
 
@@ -35,14 +45,18 @@ public class LoginActivity extends Activity {
              
         Startup st = new Startup(getApplicationContext());
         st.loadDropdownData();
+        
+        
     }    
     
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.login, menu);
-        return true;
+    	MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.login, menu);
+ 
+        return super.onCreateOptionsMenu(menu);
     }
+        
     
     public void Login_Click(View view){    	
     	GetJSONData task = new GetJSONData();
